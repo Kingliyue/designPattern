@@ -2,7 +2,7 @@ package com.atliyue.designPattern.singleten;
 
 /**
  * 懒汉式（线程安全 双重检查）
- * 实际开发中不使用这种模式(效率太低)
+ *
  */
 public class SingletonTest05 {
     public static void main(String[] args) {
