@@ -6,7 +6,11 @@ public class Client {
         House house = director.constructHouse();
 
         System.out.println(house);
-        StringBuilder stringBuilder = new StringBuilder();
+        System.out.println("__________________________________");
+
+        director.setBuilder(new BuilderHight());
+        House house1 = director.constructHouse();
+        System.out.println(house1);
 
     }
 }

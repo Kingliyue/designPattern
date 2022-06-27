@@ -1,13 +1,13 @@
 package com.atliyue.designPattern.builder;
 
 public class Director {
-    private BuilderComm builder;
+    private HouseBuilder builder;
 
-    public void setBuilder(BuilderComm builder) {
+    public void setBuilder(HouseBuilder builder) {
         this.builder = builder;
     }
 
-    public Director(BuilderComm builder) {
+    public Director(HouseBuilder builder) {
         this.builder = builder;
     }
 
